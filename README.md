@@ -14,6 +14,6 @@
 11. Wrote pagination functionality in view
 12. Cloned pagination links after reviews section
 12. Split view into Blade template files
-13. Styled app using CSS3
+13. Styled app using CSS3 (data URIs for icons)
 
 Live working copy can be viewed [here](http://bmaynard.tigrimigri.com/)
