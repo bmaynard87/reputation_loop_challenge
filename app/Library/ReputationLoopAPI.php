@@ -33,7 +33,6 @@ class ReputationLoopAPI
 
 		if(isset($params) && is_array($params)) {
 			if($params == $config) {
-				dd(true);
 				return $this;
 			}
 
