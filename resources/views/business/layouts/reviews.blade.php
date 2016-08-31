@@ -1,5 +1,5 @@
 <div class="review">
-    <h5><a href="{{ urlencode($review->customer_url) }}">{{ $review->customer_name }}</a> <small>posted on {{ date('F j, Y, g:i a', strtotime($review->date_of_submission)) }}</small></h5>
+    <h5><a target="_blank" href="{{ $review->customer_url }}">{{ $review->customer_name }}</a> <small>posted on {{ date('F j, Y, g:i a', strtotime($review->date_of_submission)) }}</small></h5>
     <p class="review_description">{{ $review->description }}</p>
     <div class="stars">
         <ul>
