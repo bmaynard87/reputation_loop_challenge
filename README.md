@@ -10,7 +10,7 @@
 6. Added config file, containing API defaults
 7. Wrote \App\Library\ReputationLoopApi, which is a wrapper class for the [API](http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=1&offset=50&threshold=1)
 8. Defined web routes '/', '/reviews', and '/reviews/page/{page}'
-10. Wrote controller with index which accepts page number as parameter (default == 1) and passes in data needed fo pagination
+10. Wrote controller with index which accepts page number as parameter (default == 1) and passes in data needed for pagination
 11. Wrote pagination functionality in view
 12. Cloned pagination links after reviews section
 12. Split view into Blade template files
